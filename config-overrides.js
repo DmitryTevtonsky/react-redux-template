@@ -64,7 +64,7 @@ const webpackConfig = () => config => {
     compress: true,
     host: "127.0.0.1",
     proxy: process.env.PROXY,
-    localPort: 8081,
+    localPort: 8080,
     open: true,
     overlay: { warnings: false, errors: true },
   };
