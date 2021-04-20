@@ -1,0 +1,48 @@
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+.layout {
+    height: 100vh;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    color: gray;
+    margin: 4rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.count {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.contentRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 0.5rem;
+}
+
+.contentRow * {
+    margin: 0 0.25rem;
+}
+
+.button {
+    min-width: 4rem;
+}
+.amountInput, .amountInput::placeholder {
+    text-align: center;
+}
